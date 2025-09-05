@@ -1,2 +1,5 @@
-# angular-all-in-one
-angular-all-in-one
+<body>
+  <app-root ng-version="20.2.4" _nghost-ng-c2887887920=""><div _ngcontent-ng-c2887887920="" class="app"><header _ngcontent-ng-c2887887920=""><section _ngcontent-ng-c2887887920=""><h1 _ngcontent-ng-c2887887920="">angular-all-in-one</h1></section><nav _ngcontent-ng-c2887887920=""><h2 _ngcontent-ng-c2887887920="">Links with Routes</h2><ul _ngcontent-ng-c2887887920=""><li _ngcontent-ng-c2887887920=""><a _ngcontent-ng-c2887887920="" routerlink="/" href="/">Home</a></li><li _ngcontent-ng-c2887887920=""><a _ngcontent-ng-c2887887920="" routerlink="/todo" href="/todo">ToDo List</a></li><li _ngcontent-ng-c2887887920=""><a _ngcontent-ng-c2887887920="" routerlink="/rxjs" href="/rxjs">RxJs Example</a></li><li _ngcontent-ng-c2887887920=""><a _ngcontent-ng-c2887887920="" routerlink="/angular-forms" href="/angular-forms">Angular Forms</a></li></ul></nav></header><main _ngcontent-ng-c2887887920=""><router-outlet _ngcontent-ng-c2887887920=""></router-outlet><app-rxjs-list><p>rxjs-list works!</p></app-rxjs-list><!--container--></main><footer _ngcontent-ng-c2887887920=""><a _ngcontent-ng-c2887887920="" target="_blank" href="https://github.com/prakashbisht20">Developed By: Prakash Bisht</a></footer></div></app-root>
+<script src="polyfills.js" type="module"></script><script src="scripts.js" defer=""></script><script src="main.js" type="module"></script>
+
+<div id="quick-start-container"></div></body>

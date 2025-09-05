@@ -1,0 +1,25 @@
+<div class="app">
+    <header>
+        <section>
+            <h1>{{ title }}</h1>
+        </section>
+        <nav>
+            <h2>Links with Routes</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/todo">ToDo List</a></li>
+                <li><a routerLink="/rxjs">RxJs Example</a></li>
+                <li><a routerLink="/angular-forms">Angular Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>       
+        <router-outlet></router-outlet>
+    </main>
+
+    <footer>
+        <a href="{{ footerUrl }}" target="_blank">{{ footerLink }}</a>
+    </footer>
+
+</div>
